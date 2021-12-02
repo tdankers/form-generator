@@ -6,6 +6,8 @@ Author: Taco Dankers
 
 Clone the project and run npm install
 
+See also more information on [Medium](https://medium.com/@t.dankers/form-generator-with-angular-12-973af5640743)
+
 Inquiry forms and questionnaires change often, depending on the business requirement. With a form generator a form can easily be adjusted or extended without the help of a programmer.
 Form-generator is a simple example that implements a generator and creates a form from a json array. This simple example generator has only two input types, a check-box and a text-field. 
 The steps 
