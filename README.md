@@ -3,6 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.5.
 
 Author: Taco Dankers
+
 Inquiry forms and questionnaires change often, depending on the business requirement. With a form generator a form can easily be adjusted or extended without the help of a programmer.
 Form-generator is a simple example that implements a generator and creates a form from a json array. This simple example generator has only two input types, a check-box and a text-field. 
 The steps 
