@@ -8,7 +8,7 @@ Inquiry forms and questionnaires change often, depending on the business require
 Form-generator is a simple example that implements a generator and creates a form from a json array. This simple example generator has only two input types, a check-box and a text-field. 
 The steps 
 1.	Generate the application with “ng new form-generator”
-2.	Create a json array with the form elements, we use a constant array, but you can also provide the json array through an api-call from a backen.
+2.	Create a json array with the form elements, we use a constant array, but you can also provide the json array through an api-call from a backend.
 3.	Create an Angular class, that is called “FormElement”, this class represent the individual form element. 
 4.	Create a parent component “master-form” that contains the top Form element and the logic to create the form and return the response.
 5.	Create the child components that represents the individual input fields. These components only need a property FormElement. We can remove the constructor and ngOnInit. The html template contains the input fields. The containing <div> element has a reference to the “master” formGroup and the <input> field contains a “formControlName”. The formGroup and formControlname ties the elements to the reactive master form. 
