@@ -1,0 +1,13 @@
+<div class ="container">
+    <p>Form generator</p>
+    <div class = "panel panel-default">
+        <form [formGroup]="formGroup" (ngSubmit) = "onFormSubmit()">
+            <div *ngFor="let item of formElementArray">
+               <app-text-box *ngIf="item.type == 'text-box'" [formElement] = item></app-text-box>
+                <app-check-box *ngIf="item.type == 'check-box'" [formElement] = item></app-check-box>              
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <div>{{result}}</div>
+</div>

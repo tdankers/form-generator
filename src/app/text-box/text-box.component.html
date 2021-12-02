@@ -1,0 +1,7 @@
+<div class= "form-group" [formGroup] = "formElement.formGroup" >
+<label for="'formElement.id'">{{formElement.label}}</label>
+<input class = "form-control" [formControlName]="formElement.id" [id] ="formElement.id" [placeholder] = "formElement.placeholder">
+<label *ngIf="formElement.error">
+    {{formElement.errorMessage}}
+</label>
+</div>
